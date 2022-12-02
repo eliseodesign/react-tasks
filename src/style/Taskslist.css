@@ -1,0 +1,12 @@
+
+
+.container-tasks{
+    display: grid;
+}
+
+
+@media screen and (min-width:720px) {
+    .container-tasks{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
